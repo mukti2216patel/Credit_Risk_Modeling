@@ -18,9 +18,15 @@ env/
 # ====================================================================
 # Block the raw source and intermediate pre-processed dataframes
 data/loan_data_2007_2014.csv
+data/loan_data_2007_2014_v2.csv
 data/loan_data_2007_2014_preprocessed.csv
 data/df_scorecard.csv
-
+data/loan_data_defaults.csv
+data/loan_data_inputs_test.csv
+data/inputs_train_with_ref_cat.csv
+data/loan_data_inputs_train.csv
+data/loan_data_targets_test.csv
+data/loan_data_targets_train.csv
 
 # Whitelist data dictionaries or layout schemas if explicitly added
 !data/LCDataDictionary.xlsx
