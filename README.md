@@ -13,7 +13,9 @@ This repository calculates the total credit risk profile of a portfolio by model
 3. **Exposure at Default (EAD)**: A Linear Regression system forecasting the remaining outstanding dollar balance at the exact moment of default.
 
 The outputs are aggregated to compute the portfolio's total risk footprint:
-\[\text{Expected Loss (EL)} = \text{PD} \times \text{LGD} \times \text{EAD}\]
+
+$$ \text{Expected Loss (EL)} = \text{PD} \times \text{LGD} \times \text{EAD} $$
+
 
 ---
 
